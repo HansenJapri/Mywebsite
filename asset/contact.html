@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Hansen Japri</title>
+    <link rel="stylesheet" href="./style/contact.css">
+    <link rel="stylesheet" href="./style/navigation.css">
+    <link rel="shortcut icon" href="./gallery/dc7e366f-309b-44a5-a40f-0d361fccc91d-removebg-preview.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="scene" id="scene"></div>
+    
+    <nav class="navbar">
+        <div class="menu-toggle">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <a href="#" class="logo">Hansen <span>Japri</span></a>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="../home.html">Home</a></li>
+            <li><a href="./profil.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-content">
+            <p>If you have any questions or would like to get in touch, feel free to reach out!</p>
+            <form class="contact-form flex flex-col items-center">
+                <input type="text" placeholder="Your Name" required class="p-3 mb-3 rounded bg-gray-800 text-gray-200">
+                <input type="email" placeholder="Your Email" required
+                    class="p-3 mb-3 rounded bg-gray-800 text-gray-200">
+                <textarea placeholder="Your Message" rows="5" required
+                    class="p-3 mb-3 rounded bg-gray-800 text-gray-200"></textarea>
+                <button type="submit"
+                    class="p-3 bg-indigo-600 text-white rounded transition duration-300 hover:bg-indigo-700">Send
+                    Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="./page-function/function.js" type="text/JavaScript"></script>
+    <script src="./page-function/navigation.js" type="text/JavaScript"></script>
+</body>
+
+</html>
